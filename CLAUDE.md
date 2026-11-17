@@ -19,6 +19,7 @@ repository: `third-year-med/Interactive-pathology-platform` → `CLAUDE.md` and 
   (credit "Course syllabus … p. N"), MCQ-book pictures `mcq_q<N>`, Commons atlas pictures `hm-img-NNN`. The practical topic is **t17**.
 - Delivered to the user directly, never committed: `hematology-viva-bank.json` (91 questions `viva_hm_tNN_NN`, 5 marks each, ≥ 5 per topic,
   34 picture questions) — imported in ✏️ Edit master draft → 🎓 Viva → ⬆ Import viva bank.
+  Teachers can present it in class with ▶ Present (platform patch `viva-present`, 2026-11-17).
 - Practical material (pictures, cases, Spotter, OSPE, 🔒 bank) follows HANDBOOK §4.4 when the user sends it.
 - Test changes on the real page with the platform repo's e2e tests "Hematology module (hematology)" and "🎓 Viva Examination (hematology)"
   (`HM_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
